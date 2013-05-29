@@ -136,3 +136,7 @@
   # postgresql9_pg_buffercache "postgres"
   # postgresql9_pg_freespacemap "postgres"
 #end
+
+package 'media-libs/ming' do
+  action: install
+end
